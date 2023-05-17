@@ -1,20 +1,3 @@
-# import json 
-# import csv
-# with open('company_data.json','r') as json_file:
-#     data = json.load(json_file)
-
-# with open('output.tsv', 'w', newline='') as tsv_file:
-#     writer = csv.writer(tsv_file, delimiter='\t')
-
-#     # Write the header
-#     header = data[0].keys()
-#     writer.writerow(header) 
-
-#     # Write the data
-#     for row in data:
-        # writer.writerow(row.values())
-
-
 import json
 import csv
 
